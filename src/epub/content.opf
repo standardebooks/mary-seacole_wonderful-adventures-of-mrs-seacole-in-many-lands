@@ -55,6 +55,7 @@
 		<meta property="file-as" refines="#author">Seacole, Mary</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mary_Seacole</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n87102124</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="author-of-introduction">W. H. Russell</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Russell, W. H.</meta>
@@ -64,6 +65,7 @@
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
 		<dc:contributor id="editor">W. J. S.</dc:contributor>
 		<meta property="file-as" refines="#editor">S., W. J.</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
