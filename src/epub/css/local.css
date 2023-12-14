@@ -116,11 +116,11 @@ p span.i4{
 	text-transform: uppercase;
 }
 
-#chapter-8 header p{
-	padding: 0.25em 0;
+#chapter-8 blockquote header p{
+	margin-bottom: .5em;
 }
 
-#chapter-8 header p:first-child{
+#chapter-8 blockquote header p:first-child{
 	letter-spacing: .1em;
 	text-transform: uppercase;
 }
