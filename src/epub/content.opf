@@ -54,19 +54,20 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mary-seacole_wonderful-adventures-of-mrs-seacole-in-many-lands</meta>
 		<dc:creator id="author">Mary Seacole</dc:creator>
 		<meta property="file-as" refines="#author">Seacole, Mary</meta>
+		<meta property="se:name.person.full-name" refines="#author">Mary Jane Seacole</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mary_Seacole</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n87102124</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="author-of-introduction">W. H. Russell</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Russell, W. H.</meta>
-		<meta property="se:name.person.full-name" refines="#author">William Howard Russell</meta>
+		<meta property="se:name.person.full-name" refines="#author-of-introduction">William Howard Russell</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/William_Howard_Russell</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n50036052</meta>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
 		<dc:contributor id="editor">W. J. S.</dc:contributor>
 		<meta property="file-as" refines="#editor">S., W. J.</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<dc:contributor id="artist">George Jones</dc:contributor>
 		<meta property="file-as" refines="#artist">Jones, George</meta>
