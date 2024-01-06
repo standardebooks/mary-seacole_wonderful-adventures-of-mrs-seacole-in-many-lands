@@ -102,6 +102,7 @@ p span.i4{
 /* Bespoke styling */
 #dedication{
 	font-variant-caps: all-small-caps;
+	line-height: 2.5em;
 }
 
 #dedication footer{
