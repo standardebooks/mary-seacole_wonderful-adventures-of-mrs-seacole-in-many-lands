@@ -69,6 +69,7 @@
 		<meta property="file-as" refines="#editor">S., W. J.</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">scr</meta>
 		<dc:contributor id="artist">George Jones</dc:contributor>
 		<meta property="file-as" refines="#artist">Jones, George</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Jones_(painter)</meta>
