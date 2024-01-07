@@ -102,7 +102,7 @@ p span.i4{
 /* Bespoke styling */
 #dedication{
 	font-variant-caps: all-small-caps;
-	line-height: 2.5em;
+	line-height: 2.5;
 }
 
 #dedication footer{
@@ -111,7 +111,7 @@ p span.i4{
 	padding-right: 20%;
 }
 
-#dedication span{
+#dedication b{
 	font-size: larger;
 	font-variant-caps: normal;
 	text-transform: uppercase;
@@ -128,7 +128,5 @@ p span.i4{
 
 #chapter-20 ul{
 	list-style-type: none;
-	margin: 1em 0 0 3em;
-	padding: 0;
 }
 /* end bespoke */
