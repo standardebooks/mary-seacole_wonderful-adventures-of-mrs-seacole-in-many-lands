@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/mary-seacole/wonderful-adventures-of-mrs-seacole-in-many-lands</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-01-07T03:07:47Z</dc:date>
+		<meta property="dcterms:modified">2024-01-07T03:07:47Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -41,15 +41,15 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">A British Creole woman provides medical assistance during the Crimean War after her travels around Panama.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/mary-seacole"&gt;Mary Seacole’s&lt;/a&gt; account of her life and travels is a lively read. Despite this, it languished in obscurity—just another Victorian travelogue, perhaps. Florence Nightingale is, appropriately enough, the figure famous for pioneering, even founding modern nursing. Some suggest that Seacole’s accomplishments have in part been overshadowed by her more famous contemporary (who is encountered at a couple points in Seacole’s book).&lt;/p&gt;
-			&lt;p&gt;Seacole gained skills as a “doctress,” a practitioner of traditional medicine, in her younger days. These she put to use in a more entrepreneurial phase of her life (now widowed) in and around the Panama. As if her exploits here were not sufficiently eventful, she felt the tug to join in the war effort in the Crimea. Her experience of attempting to be recruited as a nurse gives some insight into the racism at work in the selection process, although Seacole writes of this deftly. Undeterred, she made her own way to the Crimea where her resourcefulness as well as medical knowledge and simple compassion were put to good use. Her crisp account of her experiences must owe something to her amanuensis, known only as “W. J. S.,” who has never been identified, as well as her own vibrant story-telling.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/mary-seacole"&gt;Mary Seacole&lt;/a&gt; gained skills as a “doctress,” a practitioner of traditional medicine, in her younger days. This lively read is her account of her life and travels. Despite the fascinating story, it languished in obscurity—just another Victorian travelogue, perhaps. Some suggest that Seacole’s accomplishments in medicine have in part been overshadowed by her more famous contemporary Florence Nightingale, the Victorian nurse famous for pioneering the modern practice of nursing, and who is encountered at a couple points in Seacole’s book.&lt;/p&gt;
+			&lt;p&gt;After Seacole was widowed, she put her skills to use in this more entrepreneurial phase of her life in and around the Panama. As if her exploits there were not sufficiently eventful, she felt the tug to join in the war effort in the Crimea. Her experience of attempting to be recruited as a nurse gives some insight into the racism at work in the selection process. Undeterred, she made her own way to the Crimea, where her resourcefulness, medical knowledge, and simple compassion were put to good use. Her crisp account of her experiences was taken down by her amanuensis, known only as “W. J. S.,” who has never been identified.&lt;/p&gt;
 			&lt;p&gt;In more recent years, appreciation for Seacole and her accomplishments has grown. She topped a 2003 poll to identify and celebrate “100 Great Black Britons,” and appeared also in its 2020 (unranked) re-run. The historian Tom Holland cites Seacole when arguing for the preservation of the material archives of “ordinary people.” While some controversy continues to simmer—largely in connection with Florence Nightingale’s advocates—her place in the public imagination is assured.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/23031</dc:source>
 		<dc:source>https://archive.org/details/wonderfuladventu0000seac</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">59370</meta>
+		<meta property="se:reading-ease.flesch">59.57</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Wonderful_Adventures_of_Mrs._Seacole_in_Many_Lands</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mary-seacole_wonderful-adventures-of-mrs-seacole-in-many-lands</meta>
 		<dc:creator id="author">Mary Seacole</dc:creator>
@@ -91,6 +91,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
