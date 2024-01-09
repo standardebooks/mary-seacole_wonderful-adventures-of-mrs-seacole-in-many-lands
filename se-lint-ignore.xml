@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="dedication.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Dedication has special styling.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
