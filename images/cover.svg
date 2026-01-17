@@ -23,8 +23,7 @@
 	</style>
 	<image height="2100" width="1400" x="0" y="0" xlink:href="cover.jpg"/>
 	<path class="title-box" d="M 50,1620 1350,1620 1350,2050 50,2050 Z"/>
-	<text class="title-xsmall" x="700" y="1740">WONDERFUL ADVENTURES</text>
-	<text class="title-xsmall" x="700" y="1810">OF MRS. SEACOLE</text>
-	<text class="title-xsmall" x="700" y="1880">IN MANY LANDS</text>
-	<text class="author" x="700" y="1980">MARY SEACOLE</text>
+	<text class="title-xsmall" x="700" y="1775">WONDERFUL ADVENTURES OF</text>
+	<text class="title-xsmall" x="700" y="1845">MRS. SEACOLE IN MANY LANDS</text>
+	<text class="author" x="700" y="1945">MARY SEACOLE</text>
 </svg>
