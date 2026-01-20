@@ -49,7 +49,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/23031</dc:source>
 		<dc:source>https://archive.org/details/wonderfuladventu0000seac</dc:source>
-		<meta property="se:word-count">59370</meta>
+		<meta property="se:word-count">59078</meta>
 		<meta property="se:reading-ease.flesch">59.57</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Wonderful_Adventures_of_Mrs._Seacole_in_Many_Lands</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mary-seacole_wonderful-adventures-of-mrs-seacole-in-many-lands</meta>
