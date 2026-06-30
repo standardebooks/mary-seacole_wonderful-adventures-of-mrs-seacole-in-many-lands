@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/mary-seacole/wonderful-adventures-of-mrs-seacole-in-many-lands</dc:identifier>
 		<dc:date>2024-01-07T03:07:47Z</dc:date>
 		<meta property="dcterms:modified">2024-01-07T03:07:47Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -38,8 +39,8 @@
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
-		<meta property="se:subject">Autobiography</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Autobiography</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<dc:description id="description">A British Creole woman provides medical assistance during the Crimean War after her travels around Panama.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/mary-seacole"&gt;Mary Seacole&lt;/a&gt; gained skills as a “doctress,” a practitioner of traditional medicine, in her younger days. This lively read is her account of her life and travels. Despite the fascinating story, it languished in obscurity—just another Victorian travelogue, perhaps. Some suggest that Seacole’s accomplishments in medicine have in part been overshadowed by her more famous contemporary Florence Nightingale, the Victorian nurse famous for pioneering the modern practice of nursing, and who is encountered at a couple points in Seacole’s book.&lt;/p&gt;
@@ -49,23 +50,25 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/23031</dc:source>
 		<dc:source>https://archive.org/details/wonderfuladventu0000seac</dc:source>
-		<meta property="se:word-count">59078</meta>
-		<meta property="se:reading-ease.flesch">59.57</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Wonderful_Adventures_of_Mrs._Seacole_in_Many_Lands</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/mary-seacole_wonderful-adventures-of-mrs-seacole-in-many-lands</meta>
+		<meta property="schema:wordCount">59078</meta>
+		<meta property="schema:educationalLevel">59.57</meta>
+		<link href="https://en.wikipedia.org/wiki/Wonderful_Adventures_of_Mrs._Seacole_in_Many_Lands" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/mary-seacole_wonderful-adventures-of-mrs-seacole-in-many-lands" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Mary Seacole</dc:creator>
 		<meta property="file-as" refines="#author">Seacole, Mary</meta>
-		<meta property="se:name.person.full-name" refines="#author">Mary Jane Seacole</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mary_Seacole</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n87102124</meta>
+		<meta property="schema:alternateName" refines="#author">Mary Jane Seacole</meta>
+		<link href="https://en.wikipedia.org/wiki/Mary_Seacole" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n87102124.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="author-of-introduction">W. H. Russell</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Russell, W. H.</meta>
-		<meta property="se:name.person.full-name" refines="#author-of-introduction">William Howard Russell</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/William_Howard_Russell</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n50036052</meta>
+		<meta property="schema:alternateName" refines="#author-of-introduction">William Howard Russell</meta>
+		<link href="https://en.wikipedia.org/wiki/William_Howard_Russell" refines="#author-of-introduction" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50036052.html" refines="#author-of-introduction" rel="schema:sameAs"/>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="editor">W. J. S.</dc:contributor>
 		<meta property="file-as" refines="#editor">S., W. J.</meta>
@@ -74,8 +77,8 @@
 		<meta property="role" refines="#editor" scheme="marc:relators">scr</meta>
 		<dc:contributor id="artist">George Jones</dc:contributor>
 		<meta property="file-as" refines="#artist">Jones, George</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Jones_(painter)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr00037353</meta>
+		<link href="https://en.wikipedia.org/wiki/George_Jones_(painter)" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr00037353.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
@@ -85,8 +88,8 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Reimer</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Reimer, David</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://github.com/dajare</meta>
-		<meta property="se:url.authority.nacoaf" refines="#producer-1">http://id.loc.gov/authorities/names/n92075987</meta>
+		<link href="https://github.com/dajare" refines="#producer-1" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/n92075987.html" refines="#producer-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -95,7 +98,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com/</meta>
+		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
