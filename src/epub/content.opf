@@ -30,9 +30,9 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Wonderful Adventures of Mrs. Seacole in Many Lands</dc:title>
 		<meta property="file-as" refines="#title">Wonderful Adventures of Mrs. Seacole in Many Lands</meta>
-		<dc:subject id="subject-1">Seacole, Mary, 1805-1881 -- Travel -- Ukraine -- Crimea</dc:subject>
-		<dc:subject id="subject-2">Crimean War, 1853-1856 -- Personal narratives, Jamaican</dc:subject>
-		<dc:subject id="subject-3">Women, Black -- Jamaica -- Biography</dc:subject>
+		<dc:subject id="subject-1">Seacole, Mary, 1805-1881--Travel--Ukraine--Crimea</dc:subject>
+		<dc:subject id="subject-2">Crimean War, 1853-1856--Personal narratives, Jamaican</dc:subject>
+		<dc:subject id="subject-3">Women, Black--Jamaica--Biography</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
