@@ -52,7 +52,7 @@
 		<dc:source>https://archive.org/details/wonderfuladventu0000seac</dc:source>
 		<meta property="schema:wordCount">59078</meta>
 		<meta property="schema:educationalLevel">59.57</meta>
-		<link href="https://en.wikipedia.org/wiki/Wonderful_Adventures_of_Mrs._Seacole_in_Many_Lands" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Mary_Seacole#Wonderful_Adventures_of_Mrs._Seacole_in_Many_Lands" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/mary-seacole_wonderful-adventures-of-mrs-seacole-in-many-lands" refines="#vcs-repository" rel="schema:codeRepository"/>
